@@ -27,10 +27,23 @@ El proyecto está organizado siguiendo las convenciones de Java, Spring Boot Fra
     - **service**: Servicios que implementan la lógica de negocio.
 - **src/test/java**: Contiene las pruebas unitarias y de integración.
 
-## Endpoints Principales
+## API Endpoints
 
-- **/api/v1/equipments**: Endpoint para el manejo de Equipments.
-- **/api/v1/measurable-indicators**: Endpoint para el manejo de Measurable Indicators.
+### Equipments
+
+- **Create Equipment**: `POST /api/v1/equipments`
+
+    Endpoint for creating new equipment. Requires a JSON payload containing the equipment model and type.
+
+- **Get Equipment by ID**: `GET /api/v1/equipments/{equipmentId}`
+
+    Endpoint for retrieving equipment by its ID.
+
+### Spare Parts
+
+- **Add Spare Part to Equipment**: `POST /api/v1/equipments/{equipmentId}/spare-parts`
+
+    Endpoint for adding spare parts to existing equipment. Requires a JSON payload containing information about the spare part.
 
 ## Requisitos
 
