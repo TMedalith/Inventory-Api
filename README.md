@@ -4,7 +4,7 @@ Este repositorio contiene el código fuente del RESTful API desarrollado para br
 
 ## Descripción
 
-El API proporciona endpoints para manejar la información de Equipments y Measurable Indicators, como se especifica en el enunciado del proyecto.
+El API proporciona endpoints para manejar la información de Equipments y Spare Parts.
 
 ## Tecnologías Utilizadas
 
